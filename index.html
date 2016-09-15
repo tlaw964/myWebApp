@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Captian Caption</title>
+        <!--Boostrap's CSS-->
+        <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <!--Custom CSS-->
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+        <div class="container" id="page-container">
+            <h1 id="app-name">
+                <span class="glyphicon glyphicon-camera"></span> Captian Caption
+            </h1>
+            
+            <h2 id="page-header">
+                Save hours with this automatic captioner.
+            </h2>
+            <img id="selected-img" src="">
+            <h4 id="track-name"></h4>
+
+            <div class="btn-wrapper">
+                <label class="btn btn-info" for="my-file-selector">
+                    <input id="my-file-selector" type="file">
+                    Upload a picture
+                </label>
+
+
+        <!--jQuery Script-->
+        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+        <!--Bootstrap Script-->
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!--SoundCloud SDK-->
+        <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+        <!--Custom Script-->
+        <script src="./js/main.js"></script>
+    </body>
+</html>
